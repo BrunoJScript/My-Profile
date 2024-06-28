@@ -127,7 +127,7 @@
         font-size:medium;
         text-align:justify;
         max-width: 600px;
-        margin: 0 auto;
+        margin-top: 2rem;
     }
 
     .social-icons {
