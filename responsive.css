@@ -3,14 +3,17 @@
         font-size: 50%;
     }
     .services-container{
-
+        
         justify-content: center;
         text-align: center;
         font-size: 1px;   
     }
+    .service-info{
+        overflow: scroll;
+    }
     #menu-icon{
         display:block;
-    
+    }
 }
 
 
@@ -40,6 +43,7 @@
 
     .services{
         padding-bottom: 7rem;
+
     }
     .contact form{
         flex-direction: column;
@@ -48,8 +52,16 @@
     }
 }
 
+
+
+
+
+
 @media(max-width:1117px){
    
+    
+    .navbar .active{
+        display:none;
     }
     .navbar{
         position: absolute;
@@ -60,7 +72,7 @@
         background-color:rgba(0, 0, 0, 0.009);
         backdrop-filter: blur(20px);
 
-        border-bottom-left-radius: 3rem;
+       /* border-bottom-left-radius: 3rem;
         border-top-left-radius: 3rem;
 
         border-left: 2px solid var(--main-color);
@@ -69,15 +81,13 @@
        
         border-right: 2px solid var(--main-color);
         border-bottom-right-radius: 2rem;
-        border-top-right-radius: 2rem;
+        border-top-right-radius: 2rem;*/
 
 
     }
-    .navbar .active{
-        display:block;
-    }
+    
     .navbar a{
-        display: block;
+        display: none;
         font-size: 2rem;
         margin: 3rem 0;
         color: white;
@@ -89,37 +99,62 @@
     }
     .home-content{
         text-align:right;
-        align-items: center;    
+        align-items:center;    
         
     }
     .home-img img{
+        display: none;
         max-width: 310px;
-        align-items: normal;
+        align-items: center;
         margin-bottom: 15em;
         gap: 1rem;
-        
-
-        
+                
+    }
+    
+    .home-content h1{
+        text-align: center;
+        margin-top: 3rem;
     }
 
     .home-content h3{
-        position:relative;   
+        position: relative;
+        text-align: center; 
+        max-width: 1100px;
         font-size:small;
     }
-    .home-content h1{
-        font-size: 1%;
-        margin-top: 3rem;
-    }
+    
     .home-content p{
         font-size:medium;
-        max-width: 500px;
+        text-align:justify;
+        max-width: 600px;
         margin: 0 auto;
+    }
+
+    .social-icons {
+        text-align: center;
+        margin-left: -5rem;
+    }
+
+    .btn-group{
+        margin-top: 10rem;
+        
+        
     }
     
     .serveces h2{
         margin-bottom: 3rem;
         
+        
     }
    
 
+
+}
+
+
+@media(max-width:900px){
+
+    .education{
+        
+    }
 }
