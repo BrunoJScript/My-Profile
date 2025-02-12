@@ -147,6 +147,7 @@ span{
                 0 0 50px var(--main-color),
                 0 0 100px var(--main-color);
 }
+
 .home-contant p{
 font-size: 1.5rem;
 font-weight:500;
@@ -254,11 +255,11 @@ gap: 1.5rem;
     }
     21%,
     40%{
-        content: "Cyber Security Engineer  ";
+        content: "Support Technician  ";
     }
     41%,
     60%{
-        content: "Frontend Designer ";
+        content: "System Programmer ";
     }
     61%,
     80%{
@@ -305,6 +306,73 @@ gap: 1.5rem;
     margin: 5rem 0;
 
 }
+
+
+.Job-History {
+    padding: 100px; /* Add some padding around the section */
+    background-color: #212121; /* Light background color */
+  }
+  .Job-History h2{
+
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+    color: white;
+    
+}
+.Job-container{
+    display:inline;
+    
+    align-items: center;
+    margin-top: 10rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-bottom: 15rem;
+    gap: 4.5rem;
+}
+.Job-box{
+    
+    border: 4px solid var(--main-color);
+    border-radius: 30%;
+    background-color: var(--second-bg-color);
+
+    }
+    
+.Job-box h3{
+
+    margin-top: 3.5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--main-color);
+    
+    
+}
+.Job-box:hover h3{
+    transform: scale(1.1);
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 50px var(--main-color),
+                0 0 100px var(--main-color);
+                background-color: white;
+                
+                
+                
+}
+
+
+.Job-box h4{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.Job-box p{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    font-size: large;
+}
+
+
 
 
 

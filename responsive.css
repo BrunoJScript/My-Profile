@@ -178,3 +178,14 @@
            
         }
 }}
+
+@media (max-width: 900px) {
+    .Job-container {
+      align-items: center;
+      
+    }
+    .Job-History {
+      padding: 20px; 
+      
+    }
+  }
