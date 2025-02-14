@@ -251,11 +251,11 @@ gap: 1.5rem;
 @keyframes words{
     0%,
     20%{
-        content:"Frontend Designer  ";
+        content:"Frontend Developer  ";
     }
     21%,
     40%{
-        content: "Support Technician  ";
+        content: "Junior UX Designer ";
     }
     41%,
     60%{
@@ -263,11 +263,11 @@ gap: 1.5rem;
     }
     61%,
     80%{
-        content: "Web Developer  ";    
+        content: "Web Designer ";    
     }
     81%,
     100%{
-        content: " Hardware & Software Tester  ";
+        content: "Full Stack Developer ";
     }
 }
 
