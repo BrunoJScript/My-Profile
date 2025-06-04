@@ -502,6 +502,10 @@ font-weight: 500;
   max-width: 70%;
   border: 1px solid var(--main-color);
 }
+.video {
+  max-width: 70%;
+  border: 1px solid var(--main-color);
+}
 
 .projects-conteiner video:hover {
   transform: scale(1.05);
