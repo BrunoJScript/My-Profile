@@ -1,78 +1,68 @@
-@media(max-width: 1195px){
-    html{
-        font-size: 50%;
-    }
-    .services-container{
-        
-        justify-content: center;
-        text-align: center;
-        font-size: 1px;   
-    }
-    .service-info{
-        overflow: scroll;
-    }
-    #menu-icon{
-        display:block;
-    }
+@media (max-width: 1195px) {
+  html {
+    font-size: 50%;
+  }
+  .services-container {
+    justify-content: center;
+    text-align: center;
+    font-size: 1px;
+  }
+  .service-info {
+    overflow: scroll;
+  }
+  #menu-icon {
+    display: block;
+  }
 }
 
+@media (max-width: 1160px) {
+  header {
+    padding: 2rem 3%;
+  }
+  section {
+    padding: 8rem 3% 2rem;
+  }
 
-@media(max-width:1160px){
-    header{
-        padding: 2rem 3%;
-    }
-    section{
-        padding: 8rem 3% 2rem;
-    }
+  .timeline-item::before {
+    left: 7px;
+  }
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+    text-align: left;
+  }
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    padding-left: 37px;
+  }
+  .timeline-dot {
+    left: 1;
+  }
 
-   
-    .timeline-item::before{
-        left: 7px;
-    }
-    .timeline-item:nth-child(odd){
-        padding-right: 0;
-        text-align: left;
-    }
-    .timeline-item:nth-child(odd),
-    .timeline-item:nth-child(even){
-        padding-left: 37px;
-    }
-    .timeline-dot{
-        left: 1;
-    }
-
-    .services{
-        padding-bottom: 7rem;
-
-    }
-    .contact form{
-        flex-direction: column;
-    }
-    .footer{padding: 2rem 3%;
-    }
+  .services {
+    padding-bottom: 7rem;
+  }
+  .contact form {
+    flex-direction: column;
+  }
+  .footer {
+    padding: 2rem 3%;
+  }
 }
 
+@media (max-width: 1117px) {
+  .navbar .active {
+    display: none;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 28%;
+    padding: 0rem 1% 0rem;
+    background-color: rgba(0, 0, 0, 0.009);
+    backdrop-filter: blur(20px);
 
-
-
-
-
-@media(max-width:1117px){
-   
-    
-    .navbar .active{
-        display:none;
-    }
-    .navbar{
-        position: absolute;
-        top: 100%;
-        right: 0;
-        width: 28%;
-        padding: 0rem 1% 0rem;
-        background-color:rgba(0, 0, 0, 0.009);
-        backdrop-filter: blur(20px);
-
-       /* border-bottom-left-radius: 3rem;
+    /* border-bottom-left-radius: 3rem;
         border-top-left-radius: 3rem;
 
         border-left: 2px solid var(--main-color);
@@ -82,110 +72,87 @@
         border-right: 2px solid var(--main-color);
         border-bottom-right-radius: 2rem;
         border-top-right-radius: 2rem;*/
+  }
 
+  .navbar a {
+    display: none;
+    font-size: 2rem;
+    margin: 3rem 0;
+    color: white;
+  }
+  .home {
+    flex-direction: column-reverse;
+    padding: 1rem 1rem;
+  }
+  .home-content {
+    text-align: right;
+    align-items: center;
+  }
+  .home-img img {
+    margin-left: 15rem;
+    margin-bottom: 10rem;
+    gap: 1rem;
+  }
 
-    }
-    
-    .navbar a{
-        display: none;
-        font-size: 2rem;
-        margin: 3rem 0;
-        color: white;
-    }
-    .home{
-        flex-direction:column-reverse;
-        padding: 1rem 1rem;
-        
-    }
-    .home-content{
-        text-align:right;
-        align-items:center;    
-        
-    }
-    .home-img img{
-        margin-left: 15rem;       
-        margin-bottom: 10rem;
-        gap: 1rem;
-                
-    }
-    
-    .home-content h1{
-        text-align: center;
-        margin-top: 3rem;
-    }
+  .home-content h1 {
+    text-align: center;
+    margin-top: 3rem;
+  }
 
-    .home-content h3{
-        position: relative;
-        text-align: center; 
-        max-width: 1100px;
-        font-size:small;
-    }
-    
-    .home-content p{
-        font-size:medium;
-        text-align:justify;
-        max-width: 600px;
-        margin-top: 2rem;
-    }
+  .home-content h3 {
+    position: relative;
+    text-align: center;
+    max-width: 1100px;
+    font-size: small;
+  }
 
-    .social-icons {
-        text-align: center;
-        margin-left: -5rem;
-    }
+  .home-content p {
+    font-size: medium;
+    text-align: justify;
+    max-width: 600px;
+    margin-top: 2rem;
+  }
 
-    .btn-group{
-        margin-top: 10rem;
-        
-        
-    }
-    
-    .serveces h2{
-        margin-bottom: 3rem;
-        
-        
-    }
-   
+  .social-icons {
+    text-align: center;
+    margin-left: -5rem;
+  }
 
+  .btn-group {
+    margin-top: 10rem;
+  }
 
+  .serveces h2 {
+    margin-bottom: 3rem;
+  }
 }
 
-
-@media(max-width:900px){
-
-    .text-animation span::after{
-        display: none;
-        }
-
-
-   
-    
-
-
-      .timeline-items{
-         max-width: 1000px;
-         margin-left: 1rem;
-         padding: 2% 1%;
-         justify-content: center;
-         text-align: center;
-         
-    
-    
-       .timeline-content{
-           align-items:center;
-           text-align: center;
-           padding: 30% 60%;
-           border-radius: 6rem;
-           
-        }
-}}
-
 @media (max-width: 900px) {
-    .Job-container {
+  .text-animation span::after {
+    display: none;
+  }
+
+  .timeline-items {
+    max-width: 1000px;
+    margin-left: 1rem;
+    padding: 2% 1%;
+    justify-content: center;
+    text-align: center;
+
+    .timeline-content {
       align-items: center;
-      
-    }
-    .Job-History {
-      padding: 20px; 
-      
+      text-align: center;
+      padding: 30% 60%;
+      border-radius: 6rem;
     }
   }
+}
+
+@media (max-width: 900px) {
+  .Job-container {
+    align-items: center;
+  }
+  .Job-History {
+    padding: 20px;
+  }
+}
