@@ -95,31 +95,33 @@
   }
 
   .home-content h1 {
-    text-align: center;
-    margin-top: 3rem;
+    position: relative;
+    align-self: center;
+    margin-top: 2rem;
+    font-size: 1rem;
   }
 
   .home-content h3 {
     position: relative;
-    text-align: center;
-    max-width: 1100px;
-    font-size: small;
+    align-self: center;
+    font-size: 1rem;
   }
 
   .home-content p {
     font-size: medium;
-    text-align: justify;
+    text-align: center;
     max-width: 600px;
     margin-top: 2rem;
   }
 
   .social-icons {
-    text-align: center;
+    align-self: center;
     margin-left: -5rem;
   }
 
   .btn-group {
     margin-top: 10rem;
+    align-self: flex-end;
   }
 
   .serveces h2 {
@@ -130,6 +132,10 @@
 @media (max-width: 900px) {
   .text-animation span::after {
     display: none;
+  }
+
+  .home-content h1 {
+    font-size: 3rem;
   }
 
   .timeline-items {
@@ -154,5 +160,25 @@
   }
   .Job-History {
     padding: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-content h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .home-content h3 {
+    text-align: center;
+  }
+  .social-icons {
+    align-self: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-content h1 {
+    font-size: 1rem;
   }
 }
