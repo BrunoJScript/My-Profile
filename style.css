@@ -507,6 +507,12 @@ font-weight: 500;
   border: 1px solid var(--main-color);
 }
 
+.video:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 0 25px var(--main-color);
+}
+
 .projects-conteiner video:hover {
   transform: scale(1.05);
   cursor: pointer;
