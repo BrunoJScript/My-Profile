@@ -3,7 +3,7 @@ Welcome to my personal portfolio project! This website was built using only **HT
 
 ## 🔍 About
 
-This is a responsive landing page designed to present my work and personal brand on the web in a clean and accessible way.
+This is a responsive landing page, designed to present my work and personal brand on the web in a clean and accessible way.
 
 ## 🛠 Technologies Used
 
