@@ -7,8 +7,8 @@ This is a responsive landing page, designed to present my work and personal bran
 
 ## 🛠 Technologies Used
 
-- HTML 5
-- CSS 3
+- HTML5
+- CSS3
 - Google Fonts
 - Font Awesome for icons
 
